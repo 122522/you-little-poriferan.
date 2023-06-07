@@ -12,7 +12,6 @@
 html, body {
   height: 100%;
   margin: 0;
-  align-items: center;
 }
 
 body {
@@ -62,6 +61,7 @@ li span {
   display: none;
   padding: 1rem;
   color: #ffffff;
+  align-items: center;
 }
 
 .message span {
