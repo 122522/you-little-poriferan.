@@ -34,6 +34,8 @@
         //do something later when date is reached
         if (distance < 0) {
           document.getElementById("headline").innerText = "❅❅❅";
+          document.getElementById("com1").style.display = "none";
+          document.getElementById("com2").style.display = "none";
           document.getElementById("countdown").style.display = "none";
           document.getElementById("content").style.display = "block";
           clearInterval(x);
